@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="Puede marcar la diferencia en Sembrando Vida... ¡Empiece su contribución a través de nuestro portal seguro en línea! Esta opción tiene las más bajas tarifas y le permite contribuir para la iglesia, y recuerde que Todo lo que pidamos al Padre, Él nos lo dará.."/>
+    <meta name="keywords" content="DIEZMOS, ALFOLÍ, OFRENDAS, IGLESIA">
+    <meta name="author" content="Angel Yeber">
+    <title>Diezmos y Ofrendas</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navBar__color fixed-top sticky-top p-3">
+    <div class="container-fluid navBar__color fs-5">
+      <a class="navbar-brand navBar__color navBar__font--color" href="#">IGLESIA SEMBRANDO VIDA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon bg-light"></span>
+      </button>
+      <div class="collapse navbar-collapse navBar__justify-content--se navBar__color" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item navBar__color">
+            <a class="nav-link active navBar__color navBar__font--color" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item navBar__color">
+            <a class="nav-link navBar__color navBar__font--color" href="calendarioDeEventos.html">Calendario de eventos</a>
+          </li>
+          <li class="nav-item navBar__color navBar__font--color">
+            <a class="nav-link navBar__color navBar__font--color" href="contactanos.html">Contactanos</a>
+          </li>
+          <li class="nav-item navBar__color navBar__font--color">
+            <a class="nav-link navBar__color navBar__font--color" href="diezmosYofrendas.html">Diezmos y Ofrendas</a>
+          </li>
+          <li class="nav-item navBar__color navBar__font--color">
+            <a class="nav-link navBar__color navBar__font--color" href="jovenes.html">Jóvenes</a>
+          </li>
+          <li class="nav-item dropdown navBar__color navBar__font--color">
+            <a class="nav-link dropdown-toggle navBar__color navBar__font--color" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              IGLESIA
+            </a>
+            <ul class="dropdown-menu  navBar__color navBar__font--color" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item navBar__color navBar__font--color" href="equipoMinisterial.html">Nuestro Equipo Ministerial</a></li>
+              <li><a class="dropdown-item navBar__color navBar__font--color" href="nuestraMisionYVision.html">Nuestra Misión y Visión</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class="jumbotron jumbotron-fluid text-center bg-light text-dark pt-5">
+      <div class="container">
+        <h1 class="display-2">DIEZMOS Y OFRENDAS</h1>
+      </div>
+    </div>
+    <main>
+        <img src="img/main-image.jpg" alt="Iglesia" class="rounded mx-auto d-block pt-2" width="95%">
+        <section>
+            <article class="container-fluid">
+                <p class="text-center py-3 fontSize-3 card__text--color">"Jehová te oiga en el día de conflicto; el nombre del Dios de Jacob te defienda. Te envíe ayuda desde el santuario, y desde Sion te sostenga. Haga memoria de todas tus ofrendas. 
+                                            Y acepte tu holocausto. Te dé conforme al deseo de tu corazón, y cumpla todo tu consejo. Salmo 20:1-4"</p>
+            </article>
+        </section>
+
+        <form action="" mehotd="post">
+
+            <fieldset>
+                <legend class="text-center display-4">Información personal</legend>
+                <div class="mb-2 ms-5 me-5 p-right-5 p-left-3">
+                  <label for="nombre" class="form-label text-center">Ingrese su nombre</label>
+                  <input type="text" id="elNombre" class="form-control"><br>
+                  <label for="apellido" class="form-label">Ingrese su apellido</label>
+                  <input type="text" id="elApellido" class="form-control"><br>
+                  <label for="edad" class="form-label">Ingrese su edad</label>
+                  <input type="text" id="laEdad" class="form-control" placeholder="solo números"><br>
+                  <label for="tel" class="form-label">Ingrese su teléfono</label>
+                  <input type="tel" id="elTelefono" class="form-control"><br>
+                </div>
+                <div class="col-lg-2 container-fluid color__background-color--mainColor rounded">
+                  <label for="" class="text-center navBar__font--color">Sexo</label><br>
+                  <label for="" class="form-check-label navBar__font--color">Masculino</label>
+                  <input type="radio" value="Masculino" name="sexo"><br>
+                  <label for="" class="form-check-label navBar__font--color">Femenino</label>
+                  <input type="radio" value="Femenino" name=sexo>
+                </div>      
+                <div class="p-left-5 col-lg-3 p-top-1">
+                  <label for="rs" class="fs-5 p-2 mx-3">Razón social</label>
+                  <select class="form-select" name="rs" id="razonSocial" aria-label="Default select example">
+                      <option value="c">Casado</option>
+                      <option value="s">Soltero</option>
+                      <option value="d">Divorciado</option>
+                      <option value="v">Viudo/a</option>
+                  </select>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+              <legend class="text-center display-5">Datos de tu tarjeta</legend>
+              <div class="mb-2 ms-5 me-5 p-right-5 p-left-3">
+                <label for="nombreDeTarjeta" class="form-label">Nombre de el titular de la tarjeta</label>
+                <input type="text" class="form-control" id="nombreDeTarjeta"><br>
+                <label for="numeroTarjeta" class="form-label">Número de la tarjeta</label>
+                <input type="num" class="form-control" id="numeroTarjeta"> <br>
+                <label for="cvv" class="form-label">CVV de la tarjeta</label>
+                <input type="text" class="form-control" placeholder="Últimos 3 numeros"><br>
+              </div>
+                
+
+              <div class="p-left-5 col-lg-3">
+                <label for="tipoOfrenda" class="fs-5 p-2 mx-3">Seleccione el tipo de ofrenda</label>
+                <select name="to" class="form-select" id="laOfrenda">
+                  <option value="d">Diezmo</option>
+                  <option value="o">Ofrenda</option>
+                  <option value="po">Promesa de Fe</option>
+                  <option value="ot">Otros</option>
+                  <option value="c">Fondo de alimentos</option>
+                </select>
+              </div>
+              <div class="mb-2 ms-5 me-5 p-right-5 p-left-3 py-4">
+                <label for="monto" class="form-label">Monto</label>
+                <input type="num" class="form-control"placeholder="sin comas ni puntos"><br>
+              </div>  
+              <div class="d-flex justify-content-center">
+                <input type="reset" class="btn bg-light mb-3 mx-1" value="Cancelar">
+                <input type="submit" class="btn bg-light mb-3 mx-1" value="Enviar">  
+              </div>
+            </fieldset>   
+            <h4 class="fontSize-3 text-center pb-3">También puede ofrendar através de un depósito bancario a la cuenta:  0098839272312581 al banco arroyo</h4>
+        </form>
+    </main> 
+
+
+
+
+    <footer>
+      <div class="col-12 d-flex justify-content-evenly footer__background--color sticky-bottom">
+        <a href="https://www.youtube.com/c/SembrandoVidaBanfield" target="_blank">
+            <img src="img/youtube-icon.png" alt="youtube" class="footer__background--color"   height="60px">
+        </a>       
+        <a href="https://www.facebook.com/pages/Iglesia-Sembrando-Vida-Banfield/192637324686304" class="footer__background--color"target="_blank">
+            <img class="footer__background--color"src="img/facebook-icon.png" alt="facebook" height="60px">
+        </a>
+        <a href="https://www.instagram.com/sembrandovidabanfield/?hl=es-la" class="footer__background--color" target="_blank">
+            <img src="img/instagram-logo.png" alt="instagram" class="footer__background--color" height="60px" >
+        </a>
+        <a href="https://www.google.com.ar/maps/place/Iglesia+Sembrando+Vida+-Banfield-/@-34.7343011,-58.4352239,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccd968aacc3e1:0x11be6ced99bcb896!8m2!3d-34.7343056!4d-58.4330415" class="footer__background--color" target="_blank">
+            <img src="img/maps-icon.png" alt="maps" class="footer__background--color" height="60px">
+        </a>
+      </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

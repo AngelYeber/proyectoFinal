@@ -1,0 +1,91 @@
+
+//font colors
+$whiteFontColor: rgba(214, 214, 214, 0.822);
+$fontColor: rgba(0, 0, 0, 0.432);
+$titleColor:rgba(0, 0, 0, 0.671);
+$text-secondary: #e99c43d3;
+
+//colors
+$darkBlue: rgba(1, 6, 38,0.6);
+$bg-color:#112652;
+$almostWhite:rgba(245, 245, 245, 0.808);
+$mainColor: #294b69;
+$primary: #ffffff;
+$secondary: #734E40;
+$white: white;
+$black: blacK;
+$grey:rgba(151, 148, 148, 0.733);
+
+$colors:(
+	mainColor: #112652,
+	primary: #e9e9e9,
+	secondary: #734E40,
+    grey:rgba(151, 148, 148, 0.733),
+	white: white,
+	black: black);
+
+@each $name-color, $colors-in in $colors{
+	.color__background-color--#{$name-color}{
+		background-color: $colors-in;
+	}
+}
+
+// scss-docs-start theme-color-variables
+$primary:       $primary;
+$secondary:     $secondary;
+$success:       rgb(22, 165, 46);
+$info:          rgb(46, 176, 209);
+$warning:       rgba(228, 228, 32, 0.897);
+$danger:        rgba(180, 31, 31, 0.952);
+$light:         $whiteFontColor;
+$dark:          $grey;
+// scss-docs-end theme-color-variables
+
+//padding margin
+@mixin p-m($relleno, $margen)
+{
+	padding: $relleno;
+	margin: $margen;
+}
+$p-8: 8em;
+
+//display
+$d-flex: flex;
+$d-block: block;
+$fixed: fixed; 
+
+//sizing
+$w-50:50%;
+$w-25:25%;
+@for $i from 1 through 5{
+    .p-top-#{$i}{
+        padding-top: 2em*$i;
+    }
+
+}
+@for $i from 1 through 5{
+    .p-bot-#{$i}{
+        padding-bottom: 2em*$i;
+    }
+
+}
+@for $i from 1 through 5{
+    .p-left-#{$i}{
+        padding-left: 2em*$i;
+    }
+
+}
+@for $i from 1 through 5{
+    .p-right-#{$i}{
+        padding-right: 2em*$i;
+    }
+
+}
+@for $i from 1 through 6{
+    .fontSize-#{$i}{
+        font-size: 1.2em*$i/2;
+    }
+
+}
+//alignment
+

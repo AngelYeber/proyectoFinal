@@ -1,0 +1,54 @@
+
+//estilos
+@media only screen and (min-width: 1200px){
+    .p-angel{
+        @include p-m(8em, 0px);
+    }
+}
+
+table, th, td {
+    background-color: $bg-color;
+    border: 1px groove white;
+    border-collapse: collapse;
+   
+  }
+  th, td {
+    color:white;
+    border-color:white;
+  }
+
+.bg-color-almostWhite{
+    background-color:$almostWhite;
+}
+.whiteText{
+    color:$whiteFontColor;
+}
+.bgImage{
+    background-image: url('../img/main-image.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.card__text--color{
+    color:$fontColor;
+}
+.card__title--color{
+    color:$titleColor;
+}
+.card__text--secondaryColor{
+    color:$text-secondary;
+}
+
+.scale-image:hover{
+    transform:scale(1.1, 1.1);
+    transition:1s;
+    cursor: pointer;
+}
+.scale-element:hover{
+    transform:scale(1.1, 1.1);
+    transform:scaleZ(1);
+    transition: 0.4s;
+    cursor: pointer;
+}
+.linkColor{
+    color:$mainColor;
+}
